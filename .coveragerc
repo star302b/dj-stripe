@@ -1,0 +1,12 @@
+[run]
+branch = True
+source = djstripe
+
+omit =
+    djstripe/migrations/*
+    djstripe/management/*
+    djstripe/admin.py
+    djstripe/checks.py
+
+[html]
+directory = cover
